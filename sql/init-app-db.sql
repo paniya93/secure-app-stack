@@ -1,0 +1,3 @@
+CREATE USER appuser WITH PASSWORD 'StrongP@ss-ChangeMe';
+CREATE DATABASE appdb OWNER appuser;
+GRANT ALL PRIVILEGES ON DATABASE appdb TO appuser;

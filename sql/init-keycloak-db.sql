@@ -1,0 +1,3 @@
+CREATE USER kcuser WITH PASSWORD 'AnotherStr0ngP@ss';
+CREATE DATABASE keycloak OWNER kcuser;
+GRANT ALL PRIVILEGES ON DATABASE keycloak TO kcuser;
