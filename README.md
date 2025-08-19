@@ -84,4 +84,4 @@ sudo -u postgres psql -f sql/init-keycloak-db.sql
 ---
 
 ## 📜 License
-MIT License
+![License](./LICENSE)
